@@ -7001,7 +7001,7 @@ svg {
 }
 /*-- Chart --*/
 .c3 svg {
-  font: 10px Lato, Helvetica, sans-serif;
+  font: 10px sans-serif;
 }
 .c3 path,
 .c3 line {
