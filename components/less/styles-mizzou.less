@@ -1,0 +1,196 @@
+/* Mizzou Project Styles
+ * Still by Nathan Lawrence
+ */
+
+ .titlecard-mizzou-1{
+ 	background-image: url("../img/head-back.jpg");
+ 	background-width : contain;
+ 	background-blend-mode : multiply;
+
+
+ 	h1{
+ 		.fade-in-page-load(1s,0s);
+        @media screen and (max-width: @screen-sm){
+            font-size : 3em;
+            padding-top : 3em;
+        }
+ 	}
+
+ 	.subtitle{
+ 		.fade-in-page-load(1s,0s);
+        @media screen and (max-width: @screen-sm){
+            font-size : 2em;
+        }
+ 	}
+
+ 	.author{
+ 		.fade-in-page-load(1s,0s);
+        @media screen and (max-width: @screen-sm){
+            font-size : 1.2em;
+        }
+ 	}
+ }
+
+  .titlecard-mizzou-2{
+    background-image: url("../img/jesse-back.jpg");
+    background-width : cover;
+    background-blend-mode : multiply;
+    background-position: center; 
+
+    h1{
+        .fade-in-page-load(1s,0s);
+        @media screen and (max-width: @screen-sm){
+            font-size : 3em;
+            padding-top : 3em;
+        }
+    }
+
+    .subtitle{
+        .fade-in-page-load(1s,0s);
+        @media screen and (max-width: @screen-sm){
+            font-size : 2em;
+        }
+    }
+
+    .author{
+        .fade-in-page-load(1s,0s);
+        @media screen and (max-width: @screen-sm){
+            font-size : 1.2em;
+        }
+    }
+ }
+
+.titlecard-mizzou-3{
+    background-image: url("../img/mizzou-back.jpg");
+    background-width : cover;
+    background-blend-mode : multiply;
+    background-position: center; 
+
+    h1{
+        .fade-in-page-load(1s,0s);
+        @media screen and (max-width: @screen-sm){
+            font-size : 3em;
+            padding-top : 3em;
+        }
+    }
+
+    .subtitle{
+        .fade-in-page-load(1s,0s);
+        @media screen and (max-width: @screen-sm){
+            font-size : 2em;
+        }
+    }
+
+    .author{
+        .fade-in-page-load(1s,0s);
+        @media screen and (max-width: @screen-sm){
+            font-size : 1.2em;
+        }
+    }
+ }
+
+ #intro{
+ 	padding-top : 1.2em;
+ }
+
+.intro-paired{
+    margin-top: 1.2em;
+}
+
+.front-card-mizzou{
+ 	background: lighten(#41474E,10%) url("../img/mizzou-front.jpg") no-repeat center center fixed;
+ 	background-blend-mode : multiply;
+ 	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    position: absolute;
+    top: @navbar-height;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 0em;
+
+    @media screen and (max-width: @screen-sm){
+    	bottom: -100px;
+    }
+
+
+
+ 	h1{
+ 		padding-top : 0.5em;
+ 		.fade-in-page-load(2s,0.2s);
+ 		.no-select;
+ 		@media screen and (max-width: @screen-sm){
+    		padding-top : 0.5em;
+    		font-size: 3em;
+    	}
+ 	}
+
+ 	.subtitle{
+ 		.fade-in-page-load(2s,0.2s);
+ 		.no-select;
+ 	}
+
+ 	.author{
+ 		.fade-in-page-load(2s,0.2s);
+ 		.no-select;
+ 		padding-bottom: 0.5em;
+ 	}
+
+ 	#episode-list{
+ 		color: #fff;
+ 		padding-top: 1em;
+
+ 		@media screen and (max-width: @screen-sm){
+    			padding-top : 0.5em;
+    	}
+
+ 		.episode-enum{
+ 			.row;
+ 			padding-top: 1em;
+
+ 			@media screen and (max-width: @screen-sm){
+    			padding-top: 0.5em;
+    		}
+ 			
+ 			h2{
+ 				@media screen and (max-width: @screen-sm){
+    				font-size : 1.3em;
+    				font-weight: bold;
+    			}
+ 			}
+
+ 			a{
+
+ 				color: #fff;
+
+ 				&:hover{
+ 					color: #fff;
+ 				}
+ 			}
+
+ 			p{
+ 				font-size: 1.2em;
+                padding-left: 2.4em;
+
+ 				@media screen and (max-width: @screen-sm){
+    				font-size : 1em;
+                    padding-left: 0em;
+    			}
+ 			}
+ 		}
+
+ 		#chapter-1{
+ 			.fade-in-page-load(2s,0.2s);
+ 		}
+ 		#chapter-2{
+ 			.fade-in-page-load(2s,0.5s);
+ 		}
+ 		#chapter-3{
+ 			.fade-in-page-load(2s,.75s);
+ 		}
+
+ 	}
+
+ }
