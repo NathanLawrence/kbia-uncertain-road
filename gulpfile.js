@@ -14,6 +14,11 @@ gulp.task('img', function(){
 	.pipe(gulp.dest('build/img'));
 });
 
+gulp.task('js', function(){
+	return gulp.src('components/js/*')
+	.pipe(gulp.dest('build/js'));
+});
+
 gulp.task('fonts', function(){
 	return gulp.src('components/fonts/*')
 	.pipe(gulp.dest('build/fonts'));
@@ -34,7 +39,7 @@ gulp.task('upload', shell.task([
 	'aws s3 cp build s3://apps.kbia.org/uncertain-road --recursive --profile kbia'
 ]));
 
-gulp.task('build', ['img','less','html']);
+gulp.task('build', ['img','less', 'js', 'html']);
 
 gulp.task('deploy', ['build', 'upload']);
 
@@ -42,5 +47,6 @@ gulp.task('watch',function(){
 	gutil.log('Gulp will say that this task has finished, but don\'t believe its dirty lies.');
 	gutil.log('Hit \^c to actually exit watch mode.');
 	gulp.watch('components/less/**/*.less',['less']);
+	gulp.watch('components/js/**/*.js',['js']);
 	gulp.watch('components/**/*.html',['html']);
 });
