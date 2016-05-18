@@ -1,4 +1,4 @@
-# At 12 years old, one preteen and his parents still live with fears of the future (due to premature birth)
+# At 12 years old, a preteen and his parents still live with fears of the future
 
 My Aunt Carolyn and I have always been close. She chose to call me her “princess” when I was a child, even though I was very far from it. I was a huge tomboy and she was one of the only people who could catch me and brush my hair. So needless to say, I was incredibly excited she became pregnant with her first child in 2003 - I was ready for a baby “prince” or “princess” cousin to call my own. 
 
