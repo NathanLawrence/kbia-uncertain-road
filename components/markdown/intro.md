@@ -1,0 +1,5 @@
+A premature birth can cause weeks or even months of uncertainty in the Neonatal Intensive Care Unit (NICU), but for many families, especially those of the smallest preemies, the roller coaster of worry over their child’s health and development continues years after they are discharged from the hospital.
+
+In the last 20 years, science has pushed the frontiers of neonatal care, and doctors are saving premature infants lives at younger ages, some as young as 22 to 25 weeks. These tiniest of infants – micro preemies – are surviving more often than ever, but rarely complication-free. Most will experience lifelong consequences in their health and development. 
+
+Experts who work with premature babies every day have to weigh the question: if science can save their lives, shouldn’t it be able to ensure some quality of life? So far the answer is that it cannot. Many children will do well, but most families face years of complicated decisions and expensive interventions.
