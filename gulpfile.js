@@ -35,6 +35,7 @@ gulp.task('html', function(){
 	.pipe(gulp.dest('build'));
 });
 
+// This task will only work for KBIA.
 gulp.task('upload', shell.task([
 	'aws s3 cp build s3://apps.kbia.org/uncertain-road --recursive --profile kbia'
 ]));
