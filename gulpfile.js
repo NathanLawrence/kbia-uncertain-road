@@ -48,6 +48,6 @@ gulp.task('watch',function(){
 	gutil.log('Gulp will say that this task has finished, but don\'t believe its dirty lies.');
 	gutil.log('Hit \^c to actually exit watch mode.');
 	gulp.watch('components/less/**/*.less',['less']);
-	gulp.watch('components/js/**/*.js',['js']);
+	gulp.watch('components/**/*.js',['js']);
 	gulp.watch('components/**/*.html',['html']);
 });
