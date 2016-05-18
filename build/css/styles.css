@@ -7259,6 +7259,9 @@ header.title-card img.logo-left {
 body {
   display: block;
 }
+.article {
+  margin-bottom: 10em;
+}
 .article section {
   color: #111;
 }
@@ -7380,13 +7383,17 @@ progress {
   border: none;
   background-color: transparent;
   color: #006af3;
+  z-index: 5;
 }
 progress::-webkit-progress-bar {
   background-color: transparent;
+  z-index: 5;
 }
 progress::-webkit-progress-value {
   background-color: #006af3;
+  z-index: 5;
 }
 progress::-moz-progress-bar {
   background-color: #006af3;
+  z-index: 5;
 }

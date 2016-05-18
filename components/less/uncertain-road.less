@@ -71,6 +71,9 @@ body{
 
 
 .article{
+
+	margin-bottom:10em;
+
 	section{
 
 		color:#111;
@@ -119,17 +122,21 @@ progress{
 
 	background-color:transparent;
 
-	color: #006af3;
+	color: @brand-primary;
+	z-index:5;
 }
 
 progress::-webkit-progress-bar {
   background-color: transparent;
+  z-index:5;
 }
 
 progress::-webkit-progress-value {
-  background-color: #006af3;
+  background-color: @brand-primary;
+  z-index:5;
 }
 
 progress::-moz-progress-bar {
-  background-color: #006af3;
+  background-color: @brand-primary;
+  z-index:5;
 }
