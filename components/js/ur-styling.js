@@ -3,9 +3,7 @@ $(document).ready(function(){
 
 	$('.title-card').css('height',vpHeight);
 
-
-
-	
+	// $('.section-head').css('height', vpHeight - 100);
 
 
 	var winHeight = $(window).height(), 

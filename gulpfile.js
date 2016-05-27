@@ -50,4 +50,5 @@ gulp.task('watch',function(){
 	gulp.watch('components/less/**/*.less',['less']);
 	gulp.watch('components/**/*.js',['js']);
 	gulp.watch('components/**/*.html',['html']);
+	gulp.watch('components/**/*.jpg',['img']);
 });

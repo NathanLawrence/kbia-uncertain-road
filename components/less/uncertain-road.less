@@ -4,12 +4,14 @@ header.title-card{
 	text-align: center;
 
 	color: #eee;
-	background-color: #888;
+	background-color: #eee;
 
 	background-image: url("../img/william-cover.jpg");
     background-size : cover;
     background-position: center;
     background-blend-mode: multiply;
+
+    margin-bottom:2em;
 
 
 
@@ -21,28 +23,56 @@ header.title-card{
 
 		font-kerning: normal;
 
+		@media screen and (max-width: @screen-md){
+			transform:translateY(-60%);
+		}
 
 
 
 		h1{
-			font-size:6.5em;
+
+			text-shadow: 1px 1px 30px #222;
+		
+			font-size:5em;
 			margin-top:0px;
 			padding-top:5%;
 
+			.fade-in-page-load(1s,0s);
 
 			span.respace{
 				letter-spacing: 0.05em;
 			}
+
+			@media screen and (max-width: @screen-sm){
+				padding-top:2em;
+				font-size: 3em;
+			}
 		}
 
 		h2{
+
+			.fade-in-page-load(1s,0s); 
+
 			margin-top:0px;
 			font-size:3em;
 		}
 
+		h2.special-project-label{
+			font-weight:100;
+
+			@media screen and (max-width: @screen-sm){
+				font-size:1.5em;
+				pading-top:1em;
+			}
+		}
+
 		h2.author{
-			margin-top: 2em;
 			font-size: 2.5em;
+
+			@media screen and (max-width: @screen-sm){
+				font-size:1.5em;
+				pading-top:1em;
+			}
 		}
 	}
 
@@ -53,6 +83,10 @@ header.title-card{
 		padding-right:3em;
 		padding-bottom:3em;
 		width:300px;
+
+		@media screen and (max-width: @screen-md){
+			.hidden;
+		}
 	}
 	img.logo-left{
 		position:absolute;
@@ -72,71 +106,179 @@ body{
 
 .article{
 
-	margin-bottom:10em;
+	margin-bottom:3em;
 
 	section{
 
 		color:#111;
 
-		h1{
-			.container;
-			font-size: 3em;
+
+		header.section-head{
+			color:#eee;
+			width:100%;
+			background-color:#555;
+			position:relative;
+
+			margin-top: 3em;
+
+			margin-bottom:1em;
+
+		    background-size : cover;
+		    background-position: center;
+
+			@media screen and (min-width: @screen-md){
+				height: 750px;
+
+				div.head-float{
+					padding-top:450px;
+				}
+			}
+
+			@media screen and (max-width: @screen-md){
+				height: 600px;
+
+				div.head-float{
+					padding-top:0px;
+				}
+			}
+
+
+			div.head-float{
+
+			}
+
+
+			h1{
+				padding-bottom:0em;
+				margin-bottom:0em;
+
+				font-size:4em;
+
+				&:after{
+					border-color:#eee;
+					border:none;
+				}
+			}
+
+			div.section-description{
+				.container;
+				.more-contained;
+				padding-bottom:1em;
+
+				font-size:1.3em;
+
+				font-weight:100;
+
+				&:after{
+					width:120px;
+					padding-top:16px;
+	    			border-bottom:4px solid #eee;
+				}
+			}
 		}
 
-		h2{
+
+		h1,h2{
 			.container;
-			font-size: 2.2em;
+			.more-contained;
+
 			padding-top: 1em;
 			padding-bottom: 0.5em;
+			font-size: 2.5em;
+			font-weight: bold;
+
+			&:after{
+				width:80px;
+				padding-top:12px;
+    			border-bottom:4px solid @brand-primary;
+			}
 		}
+
+
+		// Uncomment this h2 when you're not dividing using image headers.
+		// h2{
+		// 	.container;
+		// 	.more-contained;
+		// 	font-size: 2.2em;
+		// 	padding-top: 1em;
+		// 	padding-bottom: 0.5em;
+		// }
 
 		p{
 			.container;
+			.more-contained;
+
+
 		}
 
+		.disclaimer{
+			font-style:italic;
+		}
+
+		img.full-across{
+			padding-top:1em;
+			padding-bottom: 5px;
+			width:100%;
+		}
+
+		p.caption.full-across{
+			text-align:right;
+		}
 
 	}
 
 }
 
+.more-contained{
+	padding-left:100px;
+	padding-right:100px;
 
-//Cool reading progress bar to replace a normal scrollbar.
-::-webkit-scrollbar
-{
-    width: 0px;
+	@media screen and (max-width: @screen-md){
+		padding-left:15px;
+		padding-right:15px;
+	}
 }
 
-progress{
-	position: fixed;
-	left:0;
-	top:0;
-
-	width:100%;
-	height:5px;
-
-
-	-webkit-appearance: none;
-	-moz-appearance: none;
-	appearance:none;
-	border:none;
-
-	background-color:transparent;
-
-	color: @brand-primary;
-	z-index:5;
+div.boxy-callout{
+	margin-bottom:2em;
+	margin-right:3em;
+	padding-bottom:1em;
 }
 
-progress::-webkit-progress-bar {
-  background-color: transparent;
-  z-index:5;
+div.boxy-callout-narrow{
+	width:100px;
 }
 
-progress::-webkit-progress-value {
-  background-color: @brand-primary;
-  z-index:5;
+div.callout-room-ghost{
+	margin-top:1em;
+	padding-bottom:2em;
 }
 
-progress::-moz-progress-bar {
-  background-color: @brand-primary;
-  z-index:5;
+
+section#william{
+
+	header.section-head{
+		background-color: #666;
+		background-blend-mode: multiply;
+		background-image: url("../img/william-snack.jpg");
+	}
+
+}
+
+section#twins{
+
+	header.section-head{
+		background-color: #666;
+		background-blend-mode: multiply;
+		background-image: url("../img/twins-family.jpg");
+	}
+
+}
+
+section#jake{
+	header.section-head{
+		background-color: #666;
+		background-blend-mode: multiply;
+		background-image: url("../img/jake-float.jpg");
+	}
 }

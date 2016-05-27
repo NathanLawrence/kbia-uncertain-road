@@ -1,0 +1,826 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"make",
+				"make-md-column-offset"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"color",
+				"colorMedianTop"
+			],
+			[
+				"data",
+				"dataSort"
+			],
+			[
+				"order",
+				"orderChartTop"
+			],
+			[
+				"scro",
+				"scrollTopFreeze"
+			],
+			[
+				"scroll",
+				"scrollTop"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"fade",
+				"fade-in-page-load"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "components/less/uncertain-road.less",
+			"settings":
+			{
+				"buffer_size": 3846,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/js/ur-styling.js",
+			"settings":
+			{
+				"buffer_size": 514,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/html-fragments/01-william.html",
+			"settings":
+			{
+				"buffer_size": 12677,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/index.html",
+			"settings":
+			{
+				"buffer_size": 40746,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gulpfile.js",
+			"settings":
+			{
+				"buffer_size": 1439,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/html-fragments/03-jake.html",
+			"settings":
+			{
+				"buffer_size": 10157,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "indent",
+		"selected_items":
+		[
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"preview",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"title",
+				"Convert Case: Title Case"
+			],
+			[
+				"tit",
+				"Convert Case: Title Case"
+			],
+			[
+				"title case",
+				"Convert Case: Title Case"
+			],
+			[
+				"beauti",
+				"HTMLBeautify"
+			],
+			[
+				"beaut",
+				"HTMLBeautify"
+			],
+			[
+				"beauyt",
+				"HTMLBeautify"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Save to HTML"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"oackage",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"beautif",
+				"HTMLBeautify"
+			],
+			[
+				"BEAUTI",
+				"HTMLBeautify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"gulp",
+				"Gulp"
+			],
+			[
+				"markdwn",
+				"Markdown Preview: Export HTML in Sublime Text"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/fonts",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/html-fragments",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/img",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/less",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-payphone/components",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-payphone/components/js",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_posts"
+	],
+	"file_history":
+	[
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_posts/2010-01-01-rainey.markdown",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-payphone/components/js/ur-styling.js",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/chapter-three-starting-conversation.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-payphone/.gitignore",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-payphone/components/html-fragments/copy.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-payphone/components/markdown/copy.md",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-payphone/components/markdown/copy.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_posts/2015-01-01-stuart-cox.markdown",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_posts/2015-01-01-faith-family-football.markdown",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_posts/2015-01-01-smith-my-sister.markdown",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_posts/2015-01-01-rainey.markdown",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_posts/2015-01-01-leblanc-all-comes-together.markdown",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_posts/2015-01-01-jarvis-bullets-blow-dryers.markdown",
+		"/Users/nathanlawrence/Box Sync/beggin-water.md",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/html-fragments/03-jake.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/html-fragments/02-twins.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/html-fragments/01-william.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/less/bootstrap/variables.less",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/markdown/03-jake.md",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/markdown/02-twins.md",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/markdown/02-twins.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/markdown/01-william.md",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/markdown/01-william.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/markdown/intro.md",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/markdown/intro.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_layouts/post.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_posts/2011-01-01-lawson.markdown",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_posts/2011-01-01-kaplan.markdown",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_config.yml",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/css/styles.less",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/index.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_posts/2012-01-01-leblanc.markdown",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_less/mlmt.less",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_includes/footer.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_posts/2012-01-01-smith.markdown",
+		"/Users/nathanlawrence/Downloads/leblanc.png",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_includes/header.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_layouts/default.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_less/bootstrap/variables.less",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_includes/head.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/mylifemytown/_site/2016/01/01/welcome-to-jekyll.html",
+		"/Users/nathanlawrence/Downloads/slideshow/index.html",
+		"/Users/nathanlawrence/Box Sync/Quiz Stuff/Contest Rules.md",
+		"/Users/nathanlawrence/Box Sync/Quiz Stuff/Contest Rules.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-election-tracker/components/15mar2016.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-election-tracker/components/less/bootstrap/variables.less",
+		"/Users/nathanlawrence/Documents/KBIA Dev/picklist/select-ten.py",
+		"/Volumes/NewsStaff/Bram Sable-Smith/2016/PDMP/Feature Session/PDMP session/PDMP session.sesx",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-election-tracker/components/js/graph-mar2016.js",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-election-tracker/package.json",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-election-tracker/README.md",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-election-tracker/components/graph-test.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/gulpfile.js",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/less/styles.less",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/build/css/styles.css",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/less/c3.less",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/build/js/graph-expense.js",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/graph-test.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/build/graph-test.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/js/graph.js",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-uncertain-road/components/index.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/velour/components/less/fade-in.less",
+		"/Users/nathanlawrence/Documents/KBIA Dev/velour/dist/velour.min.css/velour.css",
+		"/Users/nathanlawrence/Documents/KBIA Dev/velour/dist/velour.css",
+		"/Users/nathanlawrence/Documents/KBIA Dev/velour/components/less/velour.less",
+		"/Users/nathanlawrence/Documents/KBIA Dev/access_mo/record_layouts/pretty-docs/columns.json",
+		"/Users/nathanlawrence/Documents/KBIA Dev/access_mo/record_layouts/columns.json",
+		"/Users/nathanlawrence/Desktop/index.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/gulpfile.js",
+		"/Users/nathanlawrence/Desktop/client_id.json",
+		"/Users/nathanlawrence/Box Sync/accessmo-table/assembly_member.csv",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/markdown/starting-conversation.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/less/styles-mizzou.less",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/markdown/starting-conversation.md",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/chapter-two-hiring-president.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/chapter-one-past-and-present.html",
+		"/Users/nathanlawrence/Library/Application Support/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/nathanlawrence/Library/Application Support/Sublime Text 3/Packages/User/MarkdownPreview.sublime-settings",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/markdown/sara-revisions.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/markdown/sara-revisions.md",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/build/chapter-one-past-and-present.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/index.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/less/special-projects.less",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/markdown/hiring-president.md",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/markdown/hiring-president.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/markdown/past-and-present-becky.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/less/styles.less",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/markdown/past-and-present-becky.md",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/less/nl-utils.less",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/markdown/past-and-present-sara.md",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/markdown/past-and-present-sara.html",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/components/less/bootstrap/variables.less",
+		"/Users/nathanlawrence/Documents/KBIA Dev/graphable/components/.DS_Store",
+		"/Users/nathanlawrence/Documents/KBIA Dev/kbia-mizzou/build/index.html"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Putting Columbia's Payphone Mystery to Rest",
+			"Emerald O'Brien",
+			"or",
+			"a lot of time",
+			"payphone",
+			"phonelosers.org",
+			"link",
+			";\n",
+			"<a name=.*</a>",
+			"--",
+			"\\n",
+			"2015",
+			">\n",
+			"&rsquo;",
+			"&rdquo;",
+			"&rsquo;",
+			"<a.+</a>",
+			"\\n\\s",
+			" \\n",
+			"\\.  \\n",
+			"\\. \\n",
+			". \\n",
+			"HERE",
+			"console..og",
+			"console.log",
+			"console.log(",
+			"main-chart-placeholder",
+			"main-chart",
+			"\\s+-\\s+\\d+-\\d+\\s+",
+			"\\d+\\.\\s+",
+			" ",
+			"<ol>",
+			"</ol>",
+			"\\n",
+			"class=\"img\"",
+			"class=\"thb\"",
+			"		<",
+			"gopData",
+			"data",
+			"ctx",
+			"/*--",
+			"bardata",
+			"chart",
+			"bardata",
+			"of demands",
+			"pepper him",
+			"starting the conversat",
+			"list of demands",
+			"mexican-themed",
+			"cis-gender",
+			"the University",
+			"University(!\\s+)of",
+			"University!(\\s+)of",
+			"university system",
+			"who gets listened",
+			"state of mizzou",
+			"state of mizzou\"",
+			"Nov.",
+			". 2015",
+			"\\. 2015",
+			". 2015",
+			"Feb.",
+			"1-9-5-0",
+			"Wassinger",
+			"UM System president",
+			"UM system",
+			"push",
+			"			\n",
+			"  ",
+			" i ",
+			"downing",
+			"ebersole",
+			"bradley",
+			"  ",
+			"Ernest",
+			"[change]",
+			"\\s+marshall",
+			"\\s+Howard",
+			"\\s+ Howard",
+			">\n",
+			" \\d\\ds",
+			"’",
+			"“",
+			"”",
+			"\\s+say\\s+",
+			"description",
+			"hidden",
+			"missouri state historical society",
+			"larry",
+			"16px",
+			"’",
+			"“",
+			"”",
+			"“",
+			" +<"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"An Uncertain Road: Life after Premature Birth",
+			"Rebecca Smith",
+			"",
+			"—",
+			"\\n\\n",
+			"'",
+			"”",
+			"'",
+			"",
+			"\\n",
+			".\\n",
+			" ",
+			"",
+			"class=\"thb\"",
+			"class=\"img\"",
+			"demData",
+			"gopData",
+			"gopNom",
+			"data",
+			"November",
+			"1950",
+			"Wasinger",
+			"UM system president",
+			"UM System",
+			" ",
+			" I ",
+			" ",
+			"Earnest",
+			"'",
+			"\"",
+			"State Historical Society of Missouri",
+			"'",
+			"\"",
+			"<"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "components/less/uncertain-road.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2273,
+								2270
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 1717,
+								"count": 263,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3782.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "components/js/ur-styling.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								110
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "javascript"
+							},
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "components/html-fragments/01-william.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10904,
+								10904
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 2008,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4653.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "components/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13985,
+								13985
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 370,
+								"count": 5909,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7248.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "gulpfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1439,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1435,
+								1435
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "javascript"
+							},
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 273.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "components/html-fragments/03-jake.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								10157
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 1650,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "uncertain-road.sublime-project",
+	"replace":
+	{
+		"height": 82.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

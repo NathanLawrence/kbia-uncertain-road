@@ -151,6 +151,10 @@ footer{
 }
 
 p.pull-out{
+	.container;
+
+	max-width:800px;
+
 	color: darken(@brand-primary, 15%);
 	font-size: 2em;
 	padding-top:0.5em;
@@ -159,9 +163,85 @@ p.pull-out{
 	padding-left:3.5em;
 	padding-right:3em;
 
+	font-family: @font-family-sans-serif;
+
+	&:after{
+		width:80px;
+		padding-top:12px;
+		border-bottom:4px solid lighten(black,90%);
+	}
+
 	@media screen and (max-width: @screen-md){
 		font-size: 1.5em;
 		padding-right: 1em;
 		padding-left: 1em;
     }
+}
+
+header.kbia-top{
+	position:fixed;
+	z-index: 100;
+	height:50px;
+	width:100%;
+	background-color: #fff;
+	border-bottom:1px solid lighten(black,90%); 
+
+	img.logo{
+		max-height:100%;
+		padding-top:7px;
+		padding-bottom:5px;
+		padding-left:50px;
+
+		@media screen and (max-width: @screen-md){
+			padding-left:5px;
+		}
+	}
+}
+
+
+
+//Cool reading progress bar to replace a normal scrollbar.
+::-webkit-scrollbar
+{
+    width: 0px;
+}
+
+progress{
+	position: fixed;
+	left:0;
+	top:0;
+
+	width:100%;
+	height:8px;
+
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance:none;
+	border:none;
+
+	background-color:transparent;
+
+	color: @brand-primary;
+	z-index:5;
+}
+
+progress::-webkit-progress-bar {
+  background-color: transparent;
+  z-index:5;
+}
+
+progress::-webkit-progress-value {
+  background-color: @brand-primary;
+  z-index:5;
+}
+
+progress::-moz-progress-bar {
+  background-color: @brand-primary;
+  z-index:5;
+}
+
+progress.top-after{
+	margin-top:50px;
+	height:4px;
 }
