@@ -29,6 +29,27 @@ $(document).ready(function(){
 		}
 	};
 
+
+	var tocHighlight = function(scrollPos){
+		var williamStart = $('#william').offset().top;
+		var twinsStart = $('#twins').offset().top;
+		var jakeStart = $('#jake').offset().top;
+
+		$('.internal-nav-item').removeClass('active');
+
+		if (scrollPos < twinsStart){
+			$('#four-years-internal').addClass('active');
+		}
+
+		else if (scrollPos < jakeStart){
+			$('#seven-years-internal').addClass('active');
+		}
+
+		else{
+			$('#twelve-years-internal').addClass('active');
+		}
+	};
+
 	var winHeight = $(window).height(), 
       docHeight = $(document).height(),
       progressBar = $('progress'),
@@ -44,6 +65,9 @@ $(document).ready(function(){
 
 	   // Call table of contents detection
 	   tocDetect(value);
+
+	   // Call ToC highlight 
+	   tocHighlight(value);
 
 	});
 });

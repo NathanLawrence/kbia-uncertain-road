@@ -7,6 +7,10 @@ header.internal-nav{
 	background-color: #fff;
 	border-bottom:1px solid lighten(black,90%); 
 
+	@media print{
+      display: hidden;
+  	}
+
 	div.center-text{
 		.container;
 
@@ -16,7 +20,14 @@ header.internal-nav{
 			padding-right: 1em;
 			float:left;
 
+			color:#222;
 			text-align: center;
+
+			border-right:1px solid lighten(black,90%);
+
+			&:last-of-type{
+				border-right:none;
+			}
 
 			&:hover{
 				text-decoration: none;
@@ -36,15 +47,23 @@ header.internal-nav{
 				margin-top:8px;
 				margin-bottom:8px;
 				font-size: 1em;
-				color:#222;
+				
 				font-weight: bold;
 			}
 
 			p{
 				font-size: 1em;
-				color:#222;
 			}
 
+		}
+
+		.active{
+			h1{
+				color:#888;
+			}
+			p{
+				color:#888;
+			}
 		}
 
 	}

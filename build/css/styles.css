@@ -5996,6 +5996,8 @@ header.title-card .card-float:after,
 .article section h1:after,
 .article section h2:before,
 .article section h2:after,
+.article section div.img-contain:before,
+.article section div.img-contain:after,
 .article section p:before,
 .article section p:after,
 header.internal-nav div.center-text:before,
@@ -6023,6 +6025,7 @@ header.title-card .card-float:after,
 .article section header.section-head div.section-description:after,
 .article section h1:after,
 .article section h2:after,
+.article section div.img-contain:after,
 .article section p:after,
 header.internal-nav div.center-text:after {
   clear: both;
@@ -6582,6 +6585,16 @@ progress::-moz-progress-bar {
 progress.top-after {
   margin-top: 50px;
   height: 4px;
+}
+@media print {
+  header.kbia-top {
+    visibility: hidden;
+    display: none;
+  }
+  header.internal-nav {
+    visibility: hidden;
+    display: none;
+  }
 }
 .bar {
   fill: #000000;
@@ -7574,6 +7587,57 @@ body {
   padding-top: 12px;
   border-bottom: 4px solid #006af3;
 }
+.article section div.img-contain {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+@media (min-width: 768px) {
+  .article section div.img-contain {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .article section div.img-contain {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .article section div.img-contain {
+    width: 1170px;
+  }
+}
+.article section div.img-contain > .navbar-header,
+.article section div.img-contain > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  .article section div.img-contain > .navbar-header,
+  .article section div.img-contain > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 992px) {
+  .article section div.img-contain {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.article section div.img-contain img {
+  max-width: 100%;
+}
+.article section div.img-contain p.caption {
+  margin-top: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
+}
 .article section p {
   margin-right: auto;
   margin-left: auto;
@@ -7671,6 +7735,11 @@ header.internal-nav {
   background-color: #fff;
   border-bottom: 1px solid #e6e6e6;
 }
+@media print {
+  header.internal-nav {
+    display: hidden;
+  }
+}
 header.internal-nav div.center-text {
   margin-right: auto;
   margin-left: auto;
@@ -7709,7 +7778,12 @@ header.internal-nav div.center-text .internal-nav-item {
   width: 33%;
   padding-right: 1em;
   float: left;
+  color: #222;
   text-align: center;
+  border-right: 1px solid #e6e6e6;
+}
+header.internal-nav div.center-text .internal-nav-item:last-of-type {
+  border-right: none;
 }
 header.internal-nav div.center-text .internal-nav-item:hover {
   text-decoration: none;
@@ -7724,12 +7798,16 @@ header.internal-nav div.center-text .internal-nav-item h1 {
   margin-top: 8px;
   margin-bottom: 8px;
   font-size: 1em;
-  color: #222;
   font-weight: bold;
 }
 header.internal-nav div.center-text .internal-nav-item p {
   font-size: 1em;
-  color: #222;
+}
+header.internal-nav div.center-text .active h1 {
+  color: #888;
+}
+header.internal-nav div.center-text .active p {
+  color: #888;
 }
 progress.int-nav-after {
   height: 4px;
