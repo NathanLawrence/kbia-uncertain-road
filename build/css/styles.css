@@ -5997,7 +5997,9 @@ header.title-card .card-float:after,
 .article section h2:before,
 .article section h2:after,
 .article section p:before,
-.article section p:after {
+.article section p:after,
+header.internal-nav div.center-text:before,
+header.internal-nav div.center-text:after {
   content: " ";
   display: table;
 }
@@ -6021,7 +6023,8 @@ header.title-card .card-float:after,
 .article section header.section-head div.section-description:after,
 .article section h1:after,
 .article section h2:after,
-.article section p:after {
+.article section p:after,
+header.internal-nav div.center-text:after {
   clear: both;
 }
 .center-block {
@@ -7659,4 +7662,75 @@ section#jake header.section-head {
   background-color: #666;
   background-blend-mode: multiply;
   background-image: url("../img/jake-float.jpg");
+}
+header.internal-nav {
+  position: fixed;
+  z-index: 95;
+  top: 50px;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+header.internal-nav div.center-text {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  header.internal-nav div.center-text {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  header.internal-nav div.center-text {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  header.internal-nav div.center-text {
+    width: 1170px;
+  }
+}
+header.internal-nav div.center-text > .navbar-header,
+header.internal-nav div.center-text > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  header.internal-nav div.center-text > .navbar-header,
+  header.internal-nav div.center-text > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+header.internal-nav div.center-text .internal-nav-item {
+  box-sizing: border-box;
+  width: 33%;
+  padding-right: 1em;
+  float: left;
+  text-align: center;
+}
+header.internal-nav div.center-text .internal-nav-item:hover {
+  text-decoration: none;
+}
+header.internal-nav div.center-text .internal-nav-item:hover h1 {
+  text-decoration: underline;
+}
+header.internal-nav div.center-text .internal-nav-item:hover p {
+  text-decoration: none;
+}
+header.internal-nav div.center-text .internal-nav-item h1 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 1em;
+  color: #222;
+  font-weight: bold;
+}
+header.internal-nav div.center-text .internal-nav-item p {
+  font-size: 1em;
+  color: #222;
+}
+progress.int-nav-after {
+  height: 4px;
 }
