@@ -38,6 +38,24 @@
   	<meta name="twitter:description" content="The first time I heard the payphone on Cherry Street and Sixth in downtown Columbia ring, it was 2 a.m. The street was totally empty, and I started freaking out—not because I was scared, but because I had heard about this phone." />
   	<meta property="twitter:image" content="http://apps.kbia.org/putting-payphone-to-rest/img/payphone-cover-sm.jpg" />
 
+  	<!-- Smooth Scrolling Script -->
+  	<script type="text/javascript">
+  	      $(function() {
+  	    $('a[href*="#"]:not([href="#"])').click(function() {
+  	      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+  	        var target = $(this.hash);
+  	        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+  	        if (target.length) {
+  	          $('html, body').animate({
+  	            scrollTop: target.offset().top
+  	          }, 1000);
+  	          return false;
+  	        }
+  	      }
+  	    });
+  	  });
+  	  </script>
+
 </head>
 <body>
 <header class="kbia-top">
