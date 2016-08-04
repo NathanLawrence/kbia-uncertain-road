@@ -7434,6 +7434,11 @@ header.title-card img.logo-left {
   padding-bottom: 3em;
   width: 300px;
 }
+@media screen and (max-width: 992px) {
+  header.title-card img.logo-left {
+    display: none !important;
+  }
+}
 body {
   display: block;
 }
